@@ -13,8 +13,8 @@ of drug-pathway associations.}
 \tabular{ll}{
 Package: \tab iFad\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-10-14\cr
+Version: \tab 2.0\cr
+Date: \tab 2011-11-03\cr
 License: \tab GPL (version 2 or later) \cr
 LazyLoad: \tab yes\cr
 }
@@ -50,8 +50,8 @@ data(matrixL2)
 
 gibbs_sampling(matrixY1, matrixY2, matrixL1, matrixL2, 
 eta0=c(0.2,0.2), eta1=c(0.2,0.2), alpha_tau = 1, 
-beta_tau = 0.01, tau_sig = 1, max_iter = 50, 
-thin = 10, file_name="Demo_Gibbs_result.RData")
+beta_tau = 0.01, tau_sig = 1, max_iter = 5, 
+thin = 1, file_name="Demo_Gibbs_result.RData")
 
 
 #Traceplot

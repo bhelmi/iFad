@@ -12,8 +12,10 @@ function(Y1_mean,Y2_mean,matrixY1,matrixY2,matrixZ_chain,matrixW1,matrixW2,matri
   scaled_Y2_mean <- (Y2_mean-MEANY2)/SDY2
 
   total_iter<-dim(matrixZ_chain[[1]])[1]
-  num_Ymatrix<-length(scaled_Y1_mean)
-  est_Y1_mean_chain <- est_Y2_mean_chain <- matrix(0,total_iter,num_Ymatrix)
+  num_Y1matrix<-length(scaled_Y1_mean)
+  num_Y2matrix<-length(scaled_Y2_mean)
+  est_Y1_mean_chain <- matrix(0,total_iter,num_Y1matrix)
+  est_Y2_mean_chain <- matrix(0,total_iter,num_Y2matrix)
   RMSE_Y_MEAN<-matrix(0,total_iter,2)
 
 
