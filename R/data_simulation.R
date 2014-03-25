@@ -1,8 +1,8 @@
 data_simulation <-
 function(K,G1,G2,J,eta0,eta1,density,alpha_tau=1,beta_tau=0.01,SNR=0,file_name){
 
-  library(Rlab)
-  library(MASS)
+#  library(Rlab)
+#  library(MASS)
 
   matrixL1<-matrix(0,G1,K)
   matrixL2<-matrix(0,G2,K)

@@ -13,8 +13,8 @@ of drug-pathway associations.}
 \tabular{ll}{
 Package: \tab iFad\cr
 Type: \tab Package\cr
-Version: \tab 2.0\cr
-Date: \tab 2011-11-03\cr
+Version: \tab 3.0\cr
+Date: \tab 2014-03-25\cr
 License: \tab GPL (version 2 or later) \cr
 LazyLoad: \tab yes\cr
 }
@@ -24,7 +24,7 @@ install.packages("iFad")
 
 \author{
 Haisu Ma
-Maintainer: Haisu Ma <haisu.ma@yale.edu>
+Maintainer: Haisu Ma <haisu.ma.pku.2008@gmail.com>
 }
 \examples{
 

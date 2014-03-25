@@ -1,7 +1,7 @@
 mcmc_trace_plot <-
 function(tau_g_chain,plot_file_name,index){
 
-  library(coda)
+# library(coda)
 
   tau_g_trace<-1/sqrt(cbind(tau_g_chain[[1]],tau_g_chain[[2]])[,index])
 

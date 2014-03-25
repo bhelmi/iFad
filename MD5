@@ -1,10 +1,10 @@
-9596a3596fb3d029aec8ef6b8dc8165a *DESCRIPTION
-4208de68eee16c25101a72722888ec69 *NAMESPACE
-3c7b337ed6694aebd93f446880898575 *R/ROC_plot.R
+abf7af6a487969ebb0d163fbe95c971b *DESCRIPTION
+0c5c87fcb58129187dde2db11bc67971 *NAMESPACE
+a778ea8aa236e3eff0255ff39daf300e *R/ROC_plot.R
 ff17fb4e298a94a8b2335aa0db1b8f3e *R/Ymean_compare.R
-e9907fd8a1d85599b19488460a1078a3 *R/data_simulation.R
-3cd2bc9200f2d9df7a62c667013e0110 *R/gibbs_sampling.R
-bc92d9f34595eb9545751594ea7da84c *R/mcmc_trace_plot.R
+85d9b59c1c0b3dcbf0d88f588b667614 *R/data_simulation.R
+b12413d7b4b818bc760e2a19d4bb24fb *R/gibbs_sampling.R
+96f37bf685f0a9d8f528617567a21543 *R/mcmc_trace_plot.R
 be606dda821ae2c00b584cb93c0e0cb2 *data/Y1_mean.rda
 3a0c79fe368c3381bbf316526d965a74 *data/Y2_mean.rda
 107248a7b2c677a1ce07084223d433f0 *data/label_chain.rda
@@ -32,7 +32,7 @@ c59edeccb65782c56c910ce503a2844f *man/Y1_mean.Rd
 b4c8cb1825d0d99d73948d0bf14227ef *man/Ymean_compare.Rd
 289b9ce7f9a69240205eb8d8ddedc655 *man/data_simulation.Rd
 35e4dc8ac52b37381b2c0829d10bc9e1 *man/gibbs_sampling.Rd
-8ad05c2db095cc52c5c47599c53b363c *man/iFad-package.Rd
+03e3d2e6e51ecde117a87f96f7606cf6 *man/iFad-package.Rd
 c1726061e0ff4a92c655d98e3210eb43 *man/label_chain.Rd
 0fc2e595c57517dde1b2c23054140244 *man/matrixL1.Rd
 0ec882ceba0c1e590021abfbbaf84abd *man/matrixL2.Rd

@@ -1,13 +1,3 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
+import(Rlab,MASS,coda,ROCR)
+export(Ymean_compare,ROC_plot,data_simulation,gibbs_sampling,mcmc_trace_plot)
 
-# Export all names
-exportPattern(".")
-
-# Import all packages listed as Imports or Depends
-import(
-  Rlab,
-  MASS,
-  coda,
-  ROCR
-)

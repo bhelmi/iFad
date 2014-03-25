@@ -2,8 +2,8 @@ gibbs_sampling <-
 function(matrixY1,matrixY2,matrixL1,matrixL2,eta0,eta1,alpha_tau=1,beta_tau=0.01,tau_sig=0,max_iter=100000,thin=10,alpha_sigma1=0.7,alpha_sigma2=0.7,
 beta_sigma1=0.3,beta_sigma2=0.3,file_name){
   
-library(Rlab)
-library(MASS)
+#library(Rlab)
+#library(MASS)
 
 
 # The input data matrix (J by G, G is the number of genes plus the number of drugs, J is the number of individuals)

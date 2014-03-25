@@ -1,7 +1,7 @@
 ROC_plot <-
 function(matrixZ1,matrixZ2,matrixZ_chain,plot_name,result_file_name,burn){
 
-   library(ROCR)
+#  library(ROCR)
 
 
    G1<-dim(matrixZ1)[1]
